@@ -1,0 +1,565 @@
+<html>
+        <head><title>Downloaded HTML</title></head>
+        <body>
+            <pre style="white-space: pre-wrap; word-wrap: break-word;"><!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFP: Agro Product Technology - Mathematical Modeling & Derivatives</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- MathJax for beautiful LaTeX formulas -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #113c2b 0%, #061810 100%);
+        }
+        .card-glow {
+            box-shadow: 0 10px 30px -15px rgba(16, 185, 129, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+
+    <!-- Premium Navigation/Header -->
+    <header class="gradient-bg text-white py-6 px-4 md:px-8 shadow-md">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+                <div class="flex items-center gap-2 text-emerald-400 font-semibold text-xs uppercase tracking-wider mb-1">
+                    <span class="bg-emerald-500/20 px-2 py-0.5 rounded">Malaysia Higher Education</span>
+                    <span>•</span>
+                    <span>SFP: Agro Product Technology</span>
+                </div>
+                <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight">
+                    Optimizing Oil Palm Ripeness via Calculus
+                </h1>
+                <p class="text-sm text-gray-300 max-w-2xl mt-1">
+                    An interactive math-bioscience model explaining how derivatives $f'(x)$ pinpoint the perfect harvest window for maximum Oil Extraction Rate (OER) in Malaysian plantations.
+                </p>
+            </div>
+            <div class="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-3 rounded-xl border border-white/10 self-start md:self-auto">
+                <div class="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <div class="text-xs text-emerald-300 font-bold uppercase tracking-wide">Undergraduate Study</div>
+                    <div class="text-sm font-semibold text-white">Applied Biometrid Calculus</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 py-8 md:py-12 grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Left Panel: Bioscience Problem & Mathematical Formulas (5 columns) -->
+        <section class="lg:col-span-5 flex flex-col gap-6">
+            
+            <!-- Bioscience Scenario Context Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-150 card-glow">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-3 bg-emerald-50 rounded-xl text-emerald-600">
+                        <i class="fa-solid fa-seedling text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">The Agro-Industrial Problem</span>
+                        <h2 class="text-lg font-bold text-gray-900">Oil Accumulation in Elaeis guineensis</h2>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                    In Malaysia, the oil palm (<span class="italic text-gray-800 font-medium">Elaeis guineensis</span>) is harvested as Fresh Fruit Bunches (FFB). Premature harvesting means transporting bunches filled mostly with water rather than lipid-rich mesocarp tissue, reducing the mill's overall <strong>Oil Extraction Rate (OER)</strong>. 
+                </p>
+                <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                    Mesocarp oil synthesis begins roughly 100 days after anthesis (DAA) and continues rapidly up to 160 DAA. To maximize profitability, we must identify the exact stage when the <strong>rate of accumulation</strong> is still high versus when it stalls—a classical application of <strong>differential calculus</strong> in biological growth curves.
+                </p>
+                <div class="bg-emerald-50 border-l-4 border-emerald-500 p-3 rounded-r-xl">
+                    <div class="text-xs font-bold text-emerald-800 uppercase tracking-wide">Key Insight</div>
+                    <p class="text-xs text-emerald-950 mt-1">
+                        By calculating the first derivative $f'(x)$ of oil concentration over time, agronomists can pinpoint exactly when synthesis plateaus and fruitlets begin to detach—marking the biologically perfect harvest moment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Mathematical Modeling & Derivatives Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-150 card-glow">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-3 bg-blue-50 rounded-xl text-blue-600">
+                        <i class="fa-solid fa-square-root-variable text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Mathematical Representation</span>
+                        <h2 class="text-lg font-bold text-gray-900">The Logistic Growth Function</h2>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                    The accumulation of mesocarp oil ($y$, in %) as a function of time ($x$, in Days After Anthesis) fits a sigmoidal 3-parameter Logistic Growth model:
+                </p>
+                
+                <!-- Formulas displayed in LaTeX -->
+                <div class="bg-slate-900 text-white p-4 rounded-xl mb-4 overflow-x-auto select-none">
+                    <div class="text-center">
+                        <p class="text-xs text-slate-400 font-semibold mb-1">Biological State Equation $f(x)$:</p>
+                        <p class="text-lg font-mono tracking-wide text-emerald-400">
+                            $$f(x) = \frac{L}{1 + e^{-k(x - x_0)}}$$
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-800 my-3"></div>
+                    <div class="text-center">
+                        <p class="text-xs text-slate-400 font-semibold mb-1">First Derivative $f'(x)$ (Rate of Synthesis):</p>
+                        <p class="text-lg font-mono tracking-wide text-amber-400">
+                            $$f'(x) = \frac{L \cdot k \cdot e^{-k(x - x_0)}}{(1 + e^{-k(x - x_0)})^2}$$
+                        </p>
+                        <p class="text-xs text-slate-400 mt-1">
+                            Or simplified as: $f'(x) = k \cdot f(x) \left(1 - \frac{f(x)}{L}\right)$
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Parameters breakdown -->
+                <div class="grid grid-cols-3 gap-2 text-center text-xs">
+                    <div class="bg-gray-100 p-2 rounded-lg">
+                        <span class="block font-bold text-gray-700">L = 50%</span>
+                        <span class="text-[10px] text-gray-500">Max Mesocarp Oil</span>
+                    </div>
+                    <div class="bg-gray-100 p-2 rounded-lg">
+                        <span class="block font-bold text-gray-700">k = 0.15</span>
+                        <span class="text-[10px] text-gray-500">Specific Rate Constant</span>
+                    </div>
+                    <div class="bg-gray-100 p-2 rounded-lg">
+                        <span class="block font-bold text-gray-700">x₀ = 130 DAA</span>
+                        <span class="text-[10px] text-gray-500">Midpoint / Inflection Point</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Authentic Malaysian References -->
+            <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-150 text-xs">
+                <span class="font-bold text-gray-700 uppercase tracking-wider block mb-2"><i class="fa-solid fa-book-open mr-1"></i> Data Sources & Literature</span>
+                <ul class="space-y-1 text-gray-500">
+                    <li>• <span class="font-medium text-gray-700">Tropical Crop Consultants Limited</span>: <span class="italic">Maximizing Oil Yield (bunch water content and lipid synthesis post-anthesis 100-160 DAA)</span>.</li>
+                    <li>• <span class="font-medium text-gray-700">Malaysian Palm Oil Board (MPOB)</span>: <span class="italic">Palm Oil Engineering Bulletin (POEB No. 100) - Carbohydrate translocation and mesocarp oil synthesis mechanics</span>.</li>
+                    <li>• <span class="font-medium text-gray-700">Universiti Putra Malaysia (UPM) Research Archive</span>: <span class="italic">The reflection of moisture content on palm oil development during ripening of FFB</span>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Right Panel: Interactive Chart & Analysis Dashboard (7 columns) -->
+        <section class="lg:col-span-7 flex flex-col gap-6">
+            
+            <!-- Main Interactive Chart Area -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-150 card-glow flex flex-col gap-4">
+                <div class="flex justify-between items-center flex-wrap gap-2">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-900">Oil Accumulation & Rate of Change Analyzer</h2>
+                        <p class="text-xs text-gray-500">Click anywhere on the curve to calculate $f(x)$ and derivative $f'(x)$</p>
+                    </div>
+                    <span class="text-xs bg-amber-100 text-amber-800 font-semibold px-2.5 py-1 rounded-full flex items-center gap-1 animate-pulse">
+                        <i class="fa-solid fa-pointer"></i> Click Graph
+                    </span>
+                </div>
+
+                <!-- Chart Wrapper with constant relative heights -->
+                <div class="relative h-[320px] md:h-[380px] w-full">
+                    <canvas id="growthChart"></canvas>
+                </div>
+
+                <!-- Custom Slider as an alternative input -->
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                    <div class="flex justify-between text-xs text-gray-600 font-bold mb-1">
+                        <span>Anthesis Stage (100 Days)</span>
+                        <span class="text-emerald-700">Current Day Selector: <span id="currentSliderVal" class="bg-emerald-100 px-2 py-0.5 rounded">130</span> DAA</span>
+                        <span>Complete Maturity (160 Days)</span>
+                    </div>
+                    <input type="range" id="daySlider" min="100" max="160" value="130" step="1" 
+                           class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-emerald-600 focus:outline-none">
+                </div>
+            </div>
+
+            <!-- Live Diagnostic / Calculus Result Card -->
+            <div id="diagnosticCard" class="bg-white rounded-2xl p-6 shadow-md border-t-4 border-emerald-500 transform transition-all duration-300">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    
+                    <!-- Left: Numerical Values -->
+                    <div class="md:col-span-5 flex flex-col gap-4">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                            <span class="text-xs font-bold uppercase tracking-wider text-emerald-600">Dynamic Calculus Output</span>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="bg-emerald-50/50 p-3 rounded-xl border border-emerald-100">
+                                <div class="text-[10px] text-emerald-700 font-bold uppercase">Time Post-Anthesis</div>
+                                <div class="text-2xl font-extrabold text-gray-900 mt-1"><span id="calcDays">130</span> <span class="text-xs font-normal text-gray-500">Days</span></div>
+                                <div class="text-[10px] text-gray-500 mt-0.5 font-mono">Independent Variable $x$</div>
+                            </div>
+                            <div class="bg-emerald-50/50 p-3 rounded-xl border border-emerald-100">
+                                <div class="text-[10px] text-emerald-700 font-bold uppercase">Oil Concentration</div>
+                                <div class="text-2xl font-extrabold text-gray-900 mt-1"><span id="calcOil">25.0</span><span class="text-xs font-normal text-gray-500">%</span></div>
+                                <div class="text-[10px] text-gray-500 mt-0.5 font-mono">Function Value $f(x)$</div>
+                            </div>
+                        </div>
+
+                        <div class="bg-amber-50 p-3.5 rounded-xl border border-amber-200">
+                            <div class="text-[10px] text-amber-800 font-bold uppercase flex items-center justify-between">
+                                <span>Synthesis Rate (Derivative)</span>
+                                <span class="bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded text-[9px]">Slope of Tangent</span>
+                            </div>
+                            <div class="text-2xl font-extrabold text-amber-900 mt-1"><span id="calcRate">1.88</span> <span class="text-xs font-normal text-amber-700">% / Day</span></div>
+                            <div class="text-[10px] text-amber-700 mt-0.5 font-mono">First Derivative $f'(x)$</div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Bioscience Explanation & Agricultural Decision -->
+                    <div class="md:col-span-7 flex flex-col gap-4">
+                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 h-full">
+                            <h3 class="text-sm font-bold text-gray-800 flex items-center gap-2 mb-2">
+                                <i class="fa-solid fa-microscope text-emerald-600"></i>
+                                Biological Action & Layman's Terms
+                            </h3>
+                            <p id="calcExplain" class="text-xs text-gray-600 leading-relaxed min-h-[70px]">
+                                Loading explanation...
+                            </p>
+                            
+                            <div class="border-t border-gray-200 my-3"></div>
+                            
+                            <div class="flex items-center gap-3">
+                                <div id="verdictBadge" class="px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 shadow-sm">
+                                    <!-- Dynamic Badge Content -->
+                                </div>
+                                <span id="verdictText" class="text-xs font-semibold text-gray-700">
+                                    <!-- Dynamic Harvest Action -->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 px-4 border-t border-gray-800 mt-12">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+            <div>
+                <p class="font-bold text-emerald-400">SFP: Agro Product Technology Application Portfolio</p>
+                <p class="text-gray-400 mt-1">Simulating real agricultural bio-growth dynamics under mathematical constraints in Malaysia.</p>
+            </div>
+            <div class="text-right text-gray-500">
+                <p>&copy; 2026. Made as a Bioscience Expert System & Dynamic Mathematics Platform.</p>
+                <p class="mt-0.5">Powered by Chart.js, MathJax, and Tailwind CSS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Logic Script containing Mathematical calculations, Derivative logic and Chart.js animations -->
+    <script>
+        // Constants of our 3-parameter Logistic model describing Malaysian Oil Palm FFB accumulation
+        const L = 50.0;     // Maximum oil % in wet mesocarp
+        const k = 0.15;     // Speed constant (steepness of the logistic growth)
+        const x0 = 130;     // Inflection point (Day of maximum growth rate)
+
+        // Calculate logistic value f(x)
+        function f(x) {
+            return L / (1 + Math.exp(-k * (x - x0)));
+        }
+
+        // Calculate exact first derivative value f'(x)
+        function df(x) {
+            const expTerm = Math.exp(-k * (x - x0));
+            return (L * k * expTerm) / Math.pow(1 + expTerm, 2);
+        }
+
+        // Generate data arrays for charting (x: 100 to 160 DAA)
+        const days = [];
+        const oilValues = [];
+        const rateValues = [];
+        for (let x = 100; x <= 160; x++) {
+            days.push(x);
+            oilValues.push(f(x));
+            rateValues.push(df(x) * 10); // Scale derivative by 10 for visibility on dual axis if needed, or plot on secondary
+        }
+
+        // Initialize variables to track selected index
+        let currentDay = 130;
+        let chartInstance = null;
+
+        // Custom explanations based on biological maturity
+        function getBiologicalDetails(day, oil, rate) {
+            let explanation = "";
+            let verdict = {};
+
+            if (day < 115) {
+                explanation = `At ${day} DAA, the fruitlet is in the lag phase. Chlorophyll content in the mesocarp is still high, and photosynthesis is dominating over lipid synthesis. Only about ${oil.toFixed(1)}% oil is present. The synthesis rate is very slow at ${rate.toFixed(3)}% increase per day. The bunch is highly immature.`;
+                verdict = {
+                    color: "bg-red-100 text-red-800 border-red-200",
+                    icon: "fa-solid fa-ban text-red-600",
+                    label: "DO NOT HARVEST",
+                    desc: "Fruit is completely unripe. Unextractable oil; processing will clog the sterilizers."
+                };
+            } else if (day >= 115 && day < 125) {
+                explanation = `At ${day} DAA, the bunch has begun transitioning into lipid synthesis. Moisture levels inside the mesocarp are dropping from ~80% down toward 50%. The rate of accumulation is accelerating at ${rate.toFixed(3)}% per day. However, total oil concentration (${oil.toFixed(1)}%) is too low for commercial mill standards.`;
+                verdict = {
+                    color: "bg-orange-100 text-orange-800 border-orange-200",
+                    icon: "fa-solid fa-clock text-orange-600",
+                    label: "UNDER-RIPE",
+                    desc: "Sufficiently below standard OER. Harvesting now leads to high financial penalties."
+                };
+            } else if (day >= 125 && day <= 135) {
+                explanation = `At ${day} DAA, the biological system has reached its inflection point. The first derivative $f'(x)$ is peaking near ${rate.toFixed(3)}% per day, signifying maximum enzyme (diacylglycerol acyltransferase) activity. The fruit is transitioning extremely rapidly. Although oil is at ${oil.toFixed(1)}%, harvesting now cuts off this explosive final accumulation.`;
+                verdict = {
+                    color: "bg-blue-100 text-blue-800 border-blue-200",
+                    icon: "fa-solid fa-chart-line text-blue-600",
+                    label: "CRITICAL ACCUMULATION",
+                    desc: "Max synthesis rate! Leave on palm to let derivative do its work."
+                };
+            } else if (day > 135 && day <= 148) {
+                explanation = `At ${day} DAA, we enter the perfect harvesting window. Total oil has surpassed ${oil.toFixed(1)}%, while the accumulation rate ($f'(x)$) is starting to slow down (${rate.toFixed(3)}%/day), indicating that most lipid structures are formed. Natural abscission begins (1 to 5 loose fruitlets fall to the ground).`;
+                verdict = {
+                    color: "bg-emerald-100 text-emerald-800 border-emerald-200",
+                    icon: "fa-solid fa-circle-check text-emerald-600",
+                    label: "OPTIMAL HARVEST",
+                    desc: "OER is high and FFA (Free Fatty Acids) remain low. Ideal for premium Crude Palm Oil."
+                };
+            } else {
+                explanation = `At ${day} DAA, the derivative $f'(x)$ has dropped to a negligible ${rate.toFixed(3)}%/day. Total oil content has plateaued around ${oil.toFixed(1)}%. Lipase enzymes in the mesocarp are now breaking down triglycerides into Free Fatty Acids (FFA). Hundreds of loose fruits are on the floor.`;
+                verdict = {
+                    color: "bg-amber-100 text-amber-800 border-amber-200",
+                    icon: "fa-solid fa-triangle-exclamation text-amber-600",
+                    label: "OVER-RIPE / SENESCENCE",
+                    desc: "FFA levels are spiking, which will degrade the refined oil quality. Harvest urgently!"
+                };
+            }
+
+            return { explanation, verdict };
+        }
+
+        // Draw and update tangent line values
+        function getTangentLinePoints(selectedDay) {
+            const selectedX = selectedDay;
+            const selectedY = f(selectedX);
+            const slope = df(selectedX);
+            
+            // Generate a line segment representing the tangent line
+            const tangentPoints = [];
+            for (let x = 100; x <= 160; x++) {
+                if (Math.abs(x - selectedX) <= 8) { // Keep the tangent line localized around selected point
+                    const y = slope * (x - selectedX) + selectedY;
+                    tangentPoints.push({ x: x, y: y });
+                } else {
+                    tangentPoints.push({ x: x, y: null }); // Don't plot far away
+                }
+            }
+            return tangentPoints;
+        }
+
+        // Main setup
+        window.onload = function() {
+            const ctx = document.getElementById('growthChart').getContext('2d');
+            const daySlider = document.getElementById('daySlider');
+            const currentSliderVal = document.getElementById('currentSliderVal');
+            
+            // Elements for update
+            const calcDays = document.getElementById('calcDays');
+            const calcOil = document.getElementById('calcOil');
+            const calcRate = document.getElementById('calcRate');
+            const calcExplain = document.getElementById('calcExplain');
+            const verdictBadge = document.getElementById('verdictBadge');
+            const verdictText = document.getElementById('verdictText');
+
+            // Function to update the DOM elements & update LaTeX explanations
+            function updateDiagnostics(day) {
+                const oil = f(day);
+                const rate = df(day);
+                
+                // Set Slider values
+                daySlider.value = day;
+                currentSliderVal.innerText = day;
+
+                // Set diagnostics text
+                calcDays.innerText = day;
+                calcOil.innerText = oil.toFixed(2);
+                calcRate.innerText = rate.toFixed(3);
+
+                const info = getBiologicalDetails(day, oil, rate);
+                calcExplain.innerHTML = info.explanation;
+                
+                // Redraw MathJax formulas to render math in description
+                if (window.MathJax && typeof MathJax.typesetPromise === "function") {
+                    MathJax.typesetPromise();
+                }
+
+                // Update verdict badge
+                verdictBadge.className = `px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 shadow-sm ${info.verdict.color}`;
+                verdictBadge.innerHTML = `<i class="${info.verdict.icon}"></i> ${info.verdict.label}`;
+                verdictText.innerText = info.verdict.desc;
+
+                // Update Chart data point
+                if (chartInstance) {
+                    const tangentData = getTangentLinePoints(day);
+                    chartInstance.data.datasets[1].data = tangentData.map(p => p.y);
+                    
+                    // Update active scatter point (Point of Tangency)
+                    chartInstance.data.datasets[2].data = [{ x: day, y: oil }];
+                    chartInstance.update('none'); // Update without full layout animation to keep performance smooth
+                }
+            }
+
+            // Create Chart.js
+            chartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: days,
+                    datasets: [
+                        {
+                            label: 'Mesocarp Oil Content f(x) (%)',
+                            data: oilValues,
+                            borderColor: '#10b981', // emerald-500
+                            backgroundColor: 'rgba(16, 185, 129, 0.05)',
+                            borderWidth: 3,
+                            fill: true,
+                            tension: 0.1,
+                            pointRadius: 0,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: 'Tangent f\'(x) (Rate)',
+                            data: getTangentLinePoints(currentDay).map(p => p.y),
+                            borderColor: '#f59e0b', // amber-500
+                            borderDash: [5, 5],
+                            borderWidth: 2,
+                            fill: false,
+                            pointRadius: 0,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: 'Selected State',
+                            data: [{ x: currentDay, y: f(currentDay) }],
+                            borderColor: '#1e293b', // slate-800
+                            backgroundColor: '#f59e0b',
+                            pointRadius: 8,
+                            pointHoverRadius: 10,
+                            showLine: false,
+                            yAxisID: 'y'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    onClick: (evt, activeElements) => {
+                        // Let user click on the line or any part of the canvas to jump to that day
+                        const points = chartInstance.getElementsAtEventForMode(evt, 'index', { intersect: false }, true);
+                        if (points.length > 0) {
+                            const index = points[0].index;
+                            const clickedDay = days[index];
+                            updateDiagnostics(clickedDay);
+                        }
+                    },
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    if (context.datasetIndex === 0) {
+                                        return `Oil Concentration: ${context.parsed.y.toFixed(2)}%`;
+                                    }
+                                    if (context.datasetIndex === 1) {
+                                        const day = context.parsed.x;
+                                        return `Tangential projection`;
+                                    }
+                                    return `Active Selection`;
+                                }
+                            }
+                        },
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                font: {
+                                    family: 'Plus Jakarta Sans',
+                                    size: 11,
+                                    weight: 600
+                                },
+                                usePointStyle: true,
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Days After Anthesis (DAA)',
+                                font: {
+                                    family: 'Plus Jakarta Sans',
+                                    weight: 'bold',
+                                    size: 12
+                                }
+                            },
+                            grid: {
+                                display: false
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            min: 0,
+                            max: 60,
+                            title: {
+                                display: true,
+                                text: 'Mesocarp Oil Concentration (%)',
+                                font: {
+                                    family: 'Plus Jakarta Sans',
+                                    weight: 'bold',
+                                    size: 12
+                                }
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Event Listeners for interactive inputs
+            daySlider.addEventListener('input', (e) => {
+                const day = parseInt(e.target.value);
+                updateDiagnostics(day);
+            });
+
+            // Set default display details on start
+            updateDiagnostics(currentDay);
+        };
+    </script>
+</body>
+</html></pre>
+        </body>
+    </html>
